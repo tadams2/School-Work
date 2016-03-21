@@ -1,0 +1,29 @@
+% scanner input
+Comment: {a simple program}
+Keyword: begin
+Keyword: if
+Identifier: size
+Operator: >
+Integer: 0 (0)
+Keyword: then
+Identifier: size
+Operator: =
+Identifier: size
+Operator: -
+Identifier: size
+Operator: /
+Integer: 2 (2)
+Identifier: size
+Operator: =
+Identifier: size
+Operator: +
+Integer: 1 (1)
+Unrecognized: (
+Unrecognized: _
+Identifier: foo
+Unrecognized: )
+Keyword: return
+Integer: 100 (100)
+Identifier: size
+Keyword: end
+Comment: {end of program}

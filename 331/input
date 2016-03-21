@@ -1,0 +1,9 @@
+{a simple program}
+begin
+  if size>0
+    then size = size - size/2
+  size = size+1
+  (_foo)
+  return 100size
+end {end of program}
+
