@@ -32,5 +32,4 @@ Project Page - http://www.csee.umbc.edu/~jtang/archives/cs421.f15/homework/proj2
 #CMSC 471 - Artificial Intelligence (Spring 16)
 
 search.py - This python(3.3) program implements a Depth First Search, Breadth First Search, and a Uniform Cost Search. The program builds a graph from an input file as a dictionary of dictionaries in the form {parent : {child : weight } }. 
-The correct usage of this program is: 
-'python search.py <inputfile> <outputfile> <start node> <goal node> <search type (DFS, BFS, UCS)>
+The correct usage of this program is: 'python search.py <inputfile> <outputfile> <start node> <goal node> <search type (DFS, BFS, UCS)>
