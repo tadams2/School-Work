@@ -2,9 +2,10 @@
 #CMSC 421 - Principles of Operating Systems (Fall 15)
 
 hw2.c - The parent process will first create 4 child processess with the fork() syscall. The parent will then ask the user what they would like to do with the child processess. The options are 'Kill a Child', 'Signal a Child', 'Reap a Child', and 'Kill and Reap all Children'
-
-Compiled with - gcc --std=c99 -Wall -O2 -o hw2 hw2.c
-
+Compiled with - 
+```bash
+gcc --std=c99 -Wall -O2 -o hw2 hw2.c
+```
 #Project Page - http://www.csee.umbc.edu/~jtang/archives/cs421.f15/homework/hw2.html
 ------------------------------------------
 
