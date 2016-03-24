@@ -43,5 +43,5 @@ Project Page - http://www.csee.umbc.edu/~jtang/archives/cs421.f15/homework/proj2
 
 search.py - This python(3.3) program implements a Depth First Search, Breadth First Search, and a Uniform Cost Search. The program builds a graph from an input file as a dictionary of dictionaries in the form {parent : {child : weight } }. This program has the following usage: 
 ```bash
-python search.py (inputfile) (outputfile) (startNode) (goalNode) (searchType (DFS, BFS, UCS))
+python search.py <inputfile> <outputfile> <startNode> <goalNode> <searchType (DFS, BFS, UCS)>
 ```
