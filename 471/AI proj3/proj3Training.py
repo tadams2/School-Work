@@ -6,7 +6,7 @@ from sklearn.externals import joblib
 datasetTest = [[],[]]
 
 
-#adding all of the data into the dataset with their targets (WHAT THE FUCK THE FIRST ONE IS SMALLER)
+#adding all of the data into the dataset with their targets 
 for i in range(0, 70):
     fileName = ("%02d"%int(i + 2))
     filePath = "C:/Users/Ted/Downloads/01-2016-05-23/01/" + fileName + ".jpg"
@@ -44,7 +44,7 @@ for i in range(0, 70):
     datasetTest[1].append(5)
     
 
-#TIME TO DO SOME MACHINE LEARNING STUFF
+
 #92%
 #classifier = svm.SVC(gamma=0.0000001)
 
