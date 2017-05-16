@@ -1,5 +1,5 @@
 # School-Work
-##CMSC 421 - Principles of Operating Systems (Fall 15)
+### CMSC 421 - Principles of Operating Systems (Fall 15)
 
 [Homework 2](http://www.csee.umbc.edu/~jtang/archives/cs421.f15/homework/hw2.html)
 
@@ -38,11 +38,22 @@ scrubber-test.c - Many unit tests which cover everything from happy path tests t
 
 ------------------------------------------------------------------------------------------------
 
-##CMSC 471 - Artificial Intelligence (Spring 16)
+### CMSC 471 - Artificial Intelligence (Spring 16)
 
 Project 1
 
 search.py - This python(3.3) program implements a Depth First Search, Breadth First Search, and a Uniform Cost Search. The program builds a graph from an input file as a dictionary of dictionaries in the form {parent : {child : weight } }. This program has the following usage: 
 ```bash
 python search.py <inputfile> <outputfile> <startNode> <goalNode> <searchType (DFS, BFS, UCS)>
+```
+
+Project 3
+This project was an effort to get us to use any classifer we wanted to identify some simple 32x32 images. There were very little rules for this project and we had to get the highest % accuracy we could. I ended up with nearly a 93% accuracy using a Support Vector Machine. Of the files supplied one is for training and the other is the tool to interact with trained classifer.
+
+Project 4
+
+Clustering.py - This project was to write a K-means classifer. For this we had to also show a graph of our results (sample output image supplied with the input as well). For this we needed to use numpy since using standard python arrays would destroy any sense of efficency, numpy also allows us to use some very useful linear algebra functions.
+to run this program do the following
+```bash
+python clustering.py <number of clusters> <inputfile>
 ```
