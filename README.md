@@ -60,9 +60,9 @@ python clustering.py <number of clusters> <inputfile>
 
 ### CMSC 491 - Hadoop Based Distributed Computing (Spring 16)
 
-[Homework 2] (https://www.csee.umbc.edu/~shadam1/491s16/hw2.html)
+[Homework 3](https://www.csee.umbc.edu/~shadam1/491s16/hw2.html)
 First part of the semester long project. In this part we develop a Kafa producer / consumer combo and store the digested tweets into HDFS for further processing in the future. Avro was used serialize the data we get from tweets and then public it to the Kafka topic, then subsequently consume it. This project can be built using maven with the supplied xml file
 
-[Homework 3] (https://www.csee.umbc.edu/~shadam1/491s16/hw3.html)
+[Homework 3](https://www.csee.umbc.edu/~shadam1/491s16/hw3.html)
 Second part of the project. In this part we had to develop pig scripts to batch process data along with the help of cron jobs to schedule the processing. we had to develop pig scripts to do the following: Extract user information, 100 most chatty users, most popular users, top 100 hashtags, and reverse index of twitter words to tweet ID. All of these jobs were executed hourly and the results stored back into HDFS
 
