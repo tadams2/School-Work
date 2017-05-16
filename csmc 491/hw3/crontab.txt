@@ -1,0 +1,5 @@
+5 * * * * /home/tadams2/analytics/user_infoi.sh
+10 * * * * /home/tadams2/analytics/chatty_users.sh
+15 * * * * /home/tadams2/analytics/mostPop.sh
+20 * * * * /home/tadams2/analytics/revIndex.sh
+25 * * * * /home/tadams2/analytics/topHashtag.sh

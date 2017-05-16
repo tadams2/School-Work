@@ -1,0 +1,45 @@
+DOCUMENTATION FOR HW2 - Ted Adams
+
+step 1: make sure you start Kafka with the start_kafka.sh script 
+        as well as zookeeper with start_zookeeper.sh (stop this after you are done)
+
+
+
+step 2: Compile the avro schema included: 'java -jar /path/to/avro-tools.jar compile schema tweet.avsc .'
+     	move these files into the src folder
+
+step 3: import the maven project into eclipse with the pom.xml also be sure to include the .java files built when you
+     	compiled tweet.avsc
+
+step 4: Check the .java files and make sure that in the properties settings for the producer and
+     	consumer are using the correct ports for kafka to publish and consume from
+     	
+
+step 5: run 'Driver.java' in eclipse after setting the command line args to <topic><messagesPerFile><secondsPerFile>
+
+     	alternatively after importing the mvn project to eclipse navigate to your workspace and find the pom.xml file and run 'mvn clean package'
+	then cd in target and run 'java -jar proj2-0.0.1-SNAPSHOT.jar <topic> <messagesPerFile> <secondsPerFile>
+
+step 6: check your files! - verify that the files are in place with hdfs dfs -ls -R /user/tadams2/in/tweets/
+     	      	   	    also -cat on specific files to see their contents
+
+Sourcing my work - first off I worked with Josh Weesner for about 4 days straight on this and we developed the algorithms for this 
+	    	   homework together
+
+		   Now for internet sources:
+		   
+		   1)http://stackoverflow.com/questions/8298308/how-to-encode-decode-kafka-messages-using-avro-binary-encoder
+
+		   The post at the bottom of this thread helped me get a baseline for the producer / consumer model and what 
+		   objects I need to look at and then I researched almost every object in there through their offical javadoc's
+		   (there is really too many to list)
+
+		   2)https://cwiki.apache.org/confluence/display/AVRO/FAQ
+		   
+		   this post showed me how to serialize and deserialize an avro object to/from a byte array
+
+		   3)http://twitter4j.org/en/code-examples.html
+		   
+		   pretty much everything I needed from twitter4j, mostly numbers 8 and 9 on that page
+
+		   
